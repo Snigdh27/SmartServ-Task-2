@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1,.card2,.card3{
+    margin: 20px;
+    padding: 20px;
+    background-color:#fff;
+    text-align:left;
+    box-shadow:  0 3px 5px rgba(0,0,0,.3);
+}
+.card1,.card2{
+    width: 50%;
+    height: 40vh;   
+    display: flex;
+}
+.card3{
+    height: 50vh;
+}
+.div12{
+    display: flex;
+    height: 50%;   
+}
+.content1{
+    padding-top: 20px;
+}
+.content1,.content2{
+    padding-left: 50px;
+}
+.inside_content2{
+    display: flex;
+}
+.label_inside_content2{
+    padding-right: 30px;
+}
+select{
+    width: 200px;
+    height: 30px;
+}
+.content3{
+    display: flex;
+}
+.available_div{
+    padding-right: 20px;
+}
+.displayed_div{
+    padding-left: 20px;
+}
+.bottom_buttons{
+    float: right;
+    padding-right: 20px;
+}
+.next_button,.cancel_button{
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color:rgb(86 175 44);
+}
+.cancel_button{
+    color: red;
+    background-color: white;
+    
+}
+SELECT, INPUT[type="text"] {
+    width: 160px;
+    box-sizing: border-box;
+}
+SECTION {
+    padding-left: 100px;
+    overflow: auto;
+}
+SECTION > DIV {
+    float: left;
+    padding: 4px;
+}
+SECTION > DIV + DIV {
+    width: 40px;
+    text-align: center;
+}
+#leftValues,#rightValues{
+    height: 100px;
+}
+.center_buttons{
+    padding-top: 40px;
+}
+.span1_card3{
+    padding-left: 40px;
+}
+.span2_card3{
+    padding-left: 108px;
+}
+
+#tableContainer table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#tableContainer th,
+#tableContainer td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
